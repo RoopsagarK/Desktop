@@ -216,3 +216,20 @@ public class LinkedList{
 
     }
 }
+/*OUTPUT:
+ * 1->2->3->4->5->null
+Removed element : 5
+1->2->3->4->null
+Removed element  : 1
+2->3->4->null
+Size of the LinkedList : 3
+Found at position : 0
+Found at position : -1
+Reverse List :
+4->3->2->null
+4->2->null
+4->2->4->null
+true
+7->4->2->null
+false
+ */
