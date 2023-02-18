@@ -157,7 +157,7 @@ public class LinkedList{
     }
 
     public boolean checkPalindrome(){
-        if(head == null || head.next == null){
+        if(head.next == null){
             return true;
         }
         Node mid = findMid();
@@ -209,27 +209,9 @@ public class LinkedList{
         ll.printList();
         ll.addLast(4);
         ll.printList();
-        System.out.println(ll.checkPalindrome());  
         ll.addFirst(7);
         ll.printList();
-        System.out.println(ll.checkPalindrome()); 
+        
 
     }
 }
-/*OUTPUT:
- * 1->2->3->4->5->null
-Removed element : 5
-1->2->3->4->null
-Removed element  : 1
-2->3->4->null
-Size of the LinkedList : 3
-Found at position : 0
-Found at position : -1
-Reverse List :
-4->3->2->null
-4->2->null
-4->2->4->null
-true
-7->4->2->null
-false
- */
