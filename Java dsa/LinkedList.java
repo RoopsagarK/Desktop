@@ -203,7 +203,7 @@ public class LinkedList{
         System.out.println("Found at position : " + ll.itrSearch(2));
         System.out.println("Found at position : " + ll.itrSearch(10)); 
         ll.reverse();
-        System.out.println("Reversed List : " );
+        System.out.println("Reverse List : " );
         ll.printList();
         ll.removeFromEnd(2);
         ll.printList();
